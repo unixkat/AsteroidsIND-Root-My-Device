@@ -14,7 +14,7 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 
-EXPECTED_ORIGIN = "https://github.com/tqmane/Root-My-Device"
+EXPECTED_ORIGIN = "https://github.com/unixkat/AsteroidsIND-Root-My-Device"
 PINNED_SUBMODULES = {
     Path("src/kernelsu/KernelSU"): "932014ab5b2c9b74a3d11e2ec4d17dd10fc9442e",
 }
@@ -56,14 +56,14 @@ EXPECTED_DEVICE_ROOTS = {NOTHING_ROOT, ONEPLUS_ROOT}
 
 EXPECTED_PROFILES = {
     NOTHING_ROOT: [
-        {
-            "profileId": "asteroids-jp-B4.1-260618-1048",
+                {
+            "profileId": "asteroids-ind-B4.1-260618-1048-IND",
             "core": "core61",
             "model": "A059",
             "device": "asteroids",
             "buildDisplay": "B4.1-260618-1048",
             "buildFingerprint": (
-                "Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-"
+                "Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-"
                 "BP2A.250605.031.A3/2606181048:user/release-keys"
             ),
             "securityPatch": "2026-06-01",

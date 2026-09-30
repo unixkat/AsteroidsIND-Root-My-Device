@@ -60,6 +60,13 @@ object AsteroidsTarget {
         "Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-" +
             "BP2A.250605.031.A3/2606181048:user/release-keys"
     const val SECURITY_PATCH = "2026-06-01"
+
+    const val DISPLAY_IND = "B4.1-260618-1048"
+    const val FINGERPRINT_IND =
+        "Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-" +
+            "BP2A.250605.031.A3/2606181048:user/release-keys"
+    const val SECURITY_PATCH_IND = "2026-06-01"
+
     const val DISPLAY_260810 = "B4.1-260810-1153"
     const val FINGERPRINT_260810 =
         "Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-" +
@@ -72,7 +79,8 @@ object AsteroidsTarget {
     const val SECURITY_PATCH_260915 = "2026-09-01"
 
     val SUPPORTED_BUILDS = listOf(
-        SupportedBuild(DISPLAY, FINGERPRINT, SECURITY_PATCH, 36),
+//        SupportedBuild(DISPLAY, FINGERPRINT, SECURITY_PATCH, 36),
+        SupportedBuild(DISPLAY_IND, FINGERPRINT_IND, SECURITY_PATCH_IND, 36),
         SupportedBuild(DISPLAY_260810, FINGERPRINT_260810, SECURITY_PATCH_260810, 36),
         SupportedBuild(DISPLAY_260915, FINGERPRINT_260915, SECURITY_PATCH_260915, 37),
     )
